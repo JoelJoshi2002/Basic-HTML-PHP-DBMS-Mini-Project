@@ -15,9 +15,13 @@ You will need to have the following software installed on your computer:
 ## Installing
 
 1.Download and unzip the project Zip file
+
 2.Download and install XAMPP on your computer.
+
 3.Start the Apache and MySQL modules in XAMPP.
+
 4.Place the repository folder in the htdocs directory in the XAMPP installation folder.
+
 5.Open a web browser and go to http://localhost/[repository-name]/ to access the project.
 
 ## Built With
