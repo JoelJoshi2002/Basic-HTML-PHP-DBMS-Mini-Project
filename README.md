@@ -9,7 +9,9 @@ These instructions will get you a copy of the project up and running on your loc
 You will need to have the following software installed on your computer:
 
 1.XAMPP
+
 2.A web browser (e.g. Google Chrome, Firefox)
+
 3.A code editor, such as Visual Studio Code or Sublime Text
 
 ## Installing
