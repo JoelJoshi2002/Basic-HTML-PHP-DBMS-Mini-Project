@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INVM</title>
+    <link rel="stylesheet"  href="book.css" />  
+</head>
+<body>
+  <nav class="navbar">
+    <!-- LOGO -->
+
+    <div class="logo">Inventory Management System</div>
+
+    <!-- NAVIGATION MENU -->
+
+    <ul class="nav-links">
+      <!-- USING CHECKBOX HACK -->
+
+     
+      <!-- NAVIGATION MENUS -->
+
+      <div class="menu">
+        <li><a href="/record/record.html">Record</a></li>
+
+        <li><a href="/additem/additems.html"> Add Items</a></li>
+
+         <li><a href="/Need/need.HTML">Items Needed</a></li>
+      </div>
+    </ul>
+    <main class="Heading"> ADD Book </main>
+   
+  </nav>
+    <form action="bookcon.php" method="post">
+        <label for="bdate" style="font-family:fantasy;" style="color:#fff;">Date : </label>
+
+        <input type="text" name="bdate" date="bdate" placeholder="Enter the date...." > <br>
+
+        <label for="bitem" style="font-family:fantasy;" style="color:#fff;">Name Of the Item: </label>
+
+        <input type="text" name="bitem" item="bitem" placeholder="Enter the item...." style="margin-top: 40px"> <br>
+
+        <label for="bquantity"style="font-family:fantasy;" style="color:#fff;">Item Quantity: </label>
+
+        <input type="number" name="bquantity" item="bquantity" placeholder="Enter the quantity" style="margin-top: 40px"> <br>
+        
+        <button  type="submit" name="save" class="button"  >submit</button>
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INVM</title>
+    <link rel="stylesheet"  href="guide.css" />  
+</head>
+<body>
+  <nav class="navbar">
+    <!-- LOGO -->
+
+    <div class="logo">Inventory Management System</div>
+
+    <!-- NAVIGATION MENU -->
+
+    <ul class="nav-links">
+      <!-- USING CHECKBOX HACK -->
+
+     
+      <!-- NAVIGATION MENUS -->
+
+      <div class="menu">
+        <li><a href="/record/record.html">Record</a></li>
+
+        <li><a href="/additem/additems.html"> Add Items</a></li>
+
+         <li><a href="/Need/need.HTML">Items Needed</a></li>
+      </div>
+    </ul>
+   
+  </nav>
+  <main class="Heading">Add Guides </main>
+    <form action="gcon.php" method="post">
+        <label for="gdate" style="font-family:fantasy;" style="color:#fff;">Date : </label>
+
+        <input type="text" name="gdate" date="gdate" placeholder="Enter the date...." > <br>
+
+        <label for="gitem" style="font-family:fantasy;" style="color:#fff;">Name of the item: </label>
+
+        <input type="text" name="gitem" item="gitem" placeholder="Enter the item...." style="margin-top: 40px"> <br>
+
+        <label for="gquantity"style="font-family:fantasy;" style="color:#fff;">Item Quantity: </label>
+
+        <input type="number" name="gquantity" item="gquantity" placeholder="Enter the quantity" style="margin-top: 40px"> <br>
+        
+        <button  type="submit" name="save" class="button"  >submit</button>
+    </form>
+ 
+</body>
+</html>
