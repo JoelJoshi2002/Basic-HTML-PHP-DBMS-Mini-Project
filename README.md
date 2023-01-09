@@ -2,6 +2,8 @@
 
 This repository contains a DBMS mini project that uses HTML and CSS for the front-end and PHP for connecting to an SQL database. The project is hosted on XAMPP, a free and open-source cross-platform web server package that includes the Apache HTTP Server, MariaDB database, and interpreters for scripts written in the PHP and Perl programming languages.
 
+
+
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
@@ -31,10 +33,25 @@ You will need to have the following software installed on your computer:
 HTML - The front-end markup language
 CSS - The front-end styling language
 PHP - The server-side scripting language
-XAMPP - The web server package
 
 ## Credits
 html php connectivity: https://www.youtube.com/watch?v=2HVKizgcfjo
 
 nav bar: https://www.w3schools.com/css/css_navbar.asp
+
+
+## Demo
+
+
+![image](https://raw.githubusercontent.com/JoelJoshi2002/Basic-HTML-PHP-DBMS-Mini-Project/main/screens/Dbproject%20Login.png?token=GHSAT0AAAAAAB5ECNTIIM4AF6KHSUY4XR36Y53SUHQ)
+
+
+![image](https://raw.githubusercontent.com/JoelJoshi2002/Basic-HTML-PHP-DBMS-Mini-Project/main/screens/Screenshot%202023-01-09%20085115.png?token=GHSAT0AAAAAAB5ECNTIAGRGOIHU6OL7NKXGY53S3CQ)
+
+![image](https://raw.githubusercontent.com/JoelJoshi2002/Basic-HTML-PHP-DBMS-Mini-Project/main/screens/Screenshot%202023-01-09%20085036.png?token=GHSAT0AAAAAAB5ECNTI3GW6KG53QUO7PC3MY53S2FA)
+
+![image](https://raw.githubusercontent.com/JoelJoshi2002/Basic-HTML-PHP-DBMS-Mini-Project/main/screens/Dbproject%20Add%20Book.png?token=GHSAT0AAAAAAB5ECNTIWT35ZFZBEVP5MUDCY53SXCQ)
+
+
+
 
